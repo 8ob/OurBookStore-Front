@@ -1,0 +1,82 @@
+.description-text {
+  max-height: 200px;
+  overflow-x: hidden; /* 隐藏水平滚动条 */
+  overflow-y: auto;
+  white-space: normal; /* 允许正常换行 */
+  overflow-wrap: break-word; /* 单词太长时允许换行 */
+}
+
+.description-text-scrollable {
+  max-height: 200px; /* 可以调整这个值 */
+  overflow-y: 200px; /* 当内容超过时显示滚动条 */
+}
+
+/* Center.css */
+.btn-custom {
+  background-color: #a38061; /* 初始背景色 */
+  color: white; /* 文字顏色 */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-custom:hover {
+  background-color: #846e4b;
+  color: white; /* 文字顏色 */ /* 滑過時的背景色 */
+}
+
+.btn-custom:active {
+  background-color: #a98d70; /* 按下時的背景色 */
+}
+
+/* .tabs-site-button2 .nav-tabs2 a:after {
+  content: '';
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  background: #a38867;
+  height: 3px;
+  position: absolute;
+  opacity: 0;
+}
+
+.book-grid-row.style-4 .dz-box .dz-content .dz-body .book-footer .price h5,
+.book-grid-row.style-4 .dz-box .dz-content .dz-body .book-footer .price .h5 {
+  font-size: 30px;
+  color: #a38867;
+}
+
+.widget .widget-title:before {
+  content: '';
+  height: 100%;
+  width: 5px;
+  border-radius: 10px;
+  background-color: #a38867;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.btn-primary,
+.wp-block-button__link,
+.woocommerce .widget_shopping_cart .buttons a,
+.woocommerce.widget_shopping_cart .buttons a,
+.woocommerce #review_form #respond .form-submit input,
+.woocommerce-cart-form .table tr .button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #place_order {
+  border-color: #a38867;
+  background-color: #a38867;
+} */
+
+.content-inner-1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 180px;
+}

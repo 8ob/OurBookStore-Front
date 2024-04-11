@@ -1,0 +1,7 @@
+:root {
+  --theme-color: #e89c56;
+}
+
+.theme-color {
+  color: var(--theme-color);
+}

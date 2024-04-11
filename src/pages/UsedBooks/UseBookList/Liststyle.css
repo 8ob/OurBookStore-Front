@@ -1,0 +1,51 @@
+.user-books-list {
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.user-books-list h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.scroll-to-top1 {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ffff;
+  background-color: #be9a78;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+}
+
+.ListTitle {
+  font-family: sans-serif;
+}
+
+.btn-style-one {
+  position: relative;
+  display: inline-block;
+  padding: 12px 20px;
+  overflow: hidden;
+  vertical-align: middle;
+  transition: 0.5s;
+  z-index: 0;
+  background: #c19e7d;
+  line-height: 26px;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 7;
+  font-family: 'Roboto';
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+.book-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .book-image img {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
+  .book-details h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .book-details p {
+    margin: 5px 0;
+    color: #666;
+  }
+  

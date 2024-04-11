@@ -1,0 +1,108 @@
+.US-body {
+  font-family: Termina, sans-serif;
+  color: #111;
+  background: #eee;
+  overflow-x: hidden;
+}
+
+.US-section {
+  padding: 10vw;
+  height: 100%;
+  min-height: 100vh;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: visible;
+}
+
+.US-credit {
+  text-align: center;
+  z-index: 999;
+  font-size: 0.8rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.US-credit a {
+  color: #fff;
+}
+
+.US-h1 {
+  font-weight: 800;
+  margin: 2rem auto;
+  font-size: clamp(3vw, 2rem, 4rem);
+  text-align: center;
+  z-index: 999;
+  max-width: 800px;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  place-items: center;
+}
+
+.US-gallery {
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 176px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: visible;
+}
+
+@media (max-width: 768px) {
+  .US-gallery {
+    width: 160%;
+  }
+}
+
+.US-col {
+  display: flex;
+  flex-direction: column; /* 如果您想要水平排列，改為 row */
+  width: 100%; /* 可能需要調整這個寬度 */
+  align-items: center; /* 確保圖片水平居中 */
+  height: 100vh; /* 每列的高度設置為視窗的高度 */
+  /* 如果內容超出高度，允許滾動 */
+  /* 移除 align-self 和 justify-self，除非有特別需要 */
+}
+
+.US-col:nth-child(2) {
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.US-image {
+  width: auto; /* 如果圖片太大，可以設置為100% */
+  max-width: 100%; /* 確保圖片不會超過列的寬度 */
+  height: auto; /* 保持圖片比例 */
+  padding: 1rem;
+  filter: saturate(0);
+  /* 移除了 hover 樣式 */
+}
+.US-image:hover {
+  z-index: 99999999999 !important;
+  filter: saturate(1);
+}
+
+.US-img {
+  /* 確保圖片標籤的類是 US-img 而不是 img */
+  width: 100%; /* 這樣設置會讓圖片填滿 .US-image */
+  height: auto; /* 保持圖片比例 */
+  transition: 0.3s ease-out;
+  overflow: hidden;
+  /* 其他陰影樣式 */
+}

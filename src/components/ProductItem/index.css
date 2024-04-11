@@ -1,0 +1,11 @@
+.bookName {
+    height: 50px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* 限制在兩行 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    /* 覆寫h5預設的white-space值 */
+}

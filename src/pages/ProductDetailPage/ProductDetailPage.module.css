@@ -1,0 +1,12 @@
+.pdTbodyColor > tr > td,
+.pdTbodyColor > tr > th {
+  background-color: #f7f7f7;
+}
+
+.clampTitle {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* 限制在2行 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

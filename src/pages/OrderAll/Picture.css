@@ -1,0 +1,14 @@
+.img-block2 {
+  width: 100px;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-block2 img {
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+}

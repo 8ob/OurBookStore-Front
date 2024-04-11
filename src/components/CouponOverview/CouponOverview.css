@@ -1,0 +1,91 @@
+/* CouponOverview.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap');
+
+.coupon-overview {
+    width: 100vh;
+    height: 100vh;
+    overflow-y: scroll;
+    background: rgb(34, 178, 195);
+    background: linear-gradient(0deg, antiquewhite 0%,aliceblue 100%);
+    display: grid;
+    grid-template-rows: auto 1fr;
+    font-family: "Noto Serif Traditional Chinese", sans-serif;
+}
+
+.search-form {
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #fff6de;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: black;
+    
+}
+
+.search-form input[type="text"],
+.search-form select {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid aliceblue;
+}
+
+.search-form button {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.search-form button:hover {
+    transform: scale(1.05);
+}
+
+.coupon-table {
+    width: 95%;
+    max-height: 50%;
+    background-color: #fff6de;
+    margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.coupon-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.coupon-table th {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.coupon-table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.coupon-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.coupon-table tbody tr:nth-child(odd) {
+    background-color: #ededed;
+}

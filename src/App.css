@@ -1,0 +1,23 @@
+/* global.css */
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+}
+
+/* 讓section佔據剩餘空間 */
+/* section {
+  min-height: calc(100vh - 176px);
+} */
+
+footer {
+}

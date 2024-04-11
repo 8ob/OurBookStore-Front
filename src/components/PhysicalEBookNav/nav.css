@@ -1,0 +1,60 @@
+.search-container {
+    margin-top: 17px;
+    display: flex;
+    align-items: stretch;
+    height: 50px;
+}
+
+.search-box {
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    border-left: none;
+}
+
+.search-input {
+    padding: 10px;
+    padding-right: 30px; /* 留出圖標的空間 */
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    height: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    margin-top: 13px;
+    right: 10px; /* 或根據實際需要調整 */
+    font-size: 16px;
+    color: #aaa;
+}
+
+@keyframes delayHideAnimation {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes delayOpenAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.dropdown-menu.close {
+    max-height: 0;
+    overflow: hidden;
+    animation: delayHideAnimation 0.4s ease-out forwards;
+    transition: max-height 0.5s ease-out; /* 假設展開動畫持續0.5秒 */
+}
+
+.dropdown-menu.open {
+    max-height: 500px;
+    animation: delayOpenAnimation 0.6s ease-out forwards;
+}

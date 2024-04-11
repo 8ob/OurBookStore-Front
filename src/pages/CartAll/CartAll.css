@@ -1,0 +1,11 @@
+.deleteicon {
+  color: #808080;
+  cursor: pointer;
+
+  font-size: 20px;
+}
+
+.deleteicon:hover {
+  color: #f0af45;
+  cursor: pointer;
+}

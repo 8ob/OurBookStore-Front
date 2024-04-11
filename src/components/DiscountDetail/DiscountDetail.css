@@ -1,0 +1,54 @@
+
+.discount-detail {
+  font-family: Arial, sans-serif;
+  color: white;
+  max-width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.discount-banner {
+  background-color: #6a4f9e; /* A purple color */
+  text-align: center;
+  padding: 16px;
+}
+
+.discount-banner h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.discount-banner p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.discount-info {
+  background-color: #9b6bcc; /* A lighter purple */
+  text-align: center;
+  padding: 16px;
+}
+
+.discount-info h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.discount-info p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.terms {
+  background-color: #c7a2cc; /* An even lighter purple */
+  padding: 16px;
+  text-align: center;
+}
+
+.terms p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}

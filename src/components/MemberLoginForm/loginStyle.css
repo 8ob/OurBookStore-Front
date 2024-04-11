@@ -1,0 +1,12 @@
+.fullscreen-background {
+  background-image: url('../../assets/images/background/magicpattern-oPH_5xuMgQw-unsplash.jpg'); /* 背景圖片的路徑 */
+  background-size: cover; /* 使背景圖片覆蓋整個螢幕 */
+  background-position: center center; /* 背景圖片置中顯示 */
+  background-repeat: no-repeat; /* 背景圖片不重複 */
+  height: 100vh; /* 設定高度為視窗的100% */
+  width: 100vw; /* 設定寬度為視窗的100% */
+  position: fixed; /* 使背景固定，不隨滾動條滾動 */
+  top: 0;
+  left: 0;
+  z-index: -1; /* 確保背景圖位於內容之下 */
+}

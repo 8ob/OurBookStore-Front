@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./src/assets/images/logo-icon.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>印跡書閣&島讀日二手書閣</title>
+    <style>
+      df-messenger {
+        --df-messenger-bot-message: #676767;
+        --df-messenger-button-titlebar-color: #987a5b;
+        --df-messenger-chat-background-color: #fafafa;
+        --df-messenger-font-color: white;
+        --df-messenger-send-icon: #ac9f87;
+        --df-messenger-user-message: #b29674;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  -->
+    <df-messenger
+      chat-icon="https:&#x2F;&#x2F;storage.cloud.google.com&#x2F;booksanewleaseoflife&#x2F;writing.png?authuser=8"
+      intent="WELCOME"
+      chat-title="⚜︎島讀日二手書閣⚜︎  歡迎您~"
+      agent-id="7ada3681-2b38-4824-a338-2ade10bdb26d"
+      language-code="zh-tw"
+    ></df-messenger>
+  </body>
+</html>

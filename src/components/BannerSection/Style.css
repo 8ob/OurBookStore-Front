@@ -1,0 +1,27 @@
+/* 隐藏 Swiper 默认的导航按钮样式 */
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important; /* !important 可能是必要的，以确保覆盖默认样式 */
+}
+
+/* 自定义导航按钮样式 */
+.banner-slider-control {
+  /* 应用你的自定义样式 */
+}
+
+.banner-slider-control {
+  z-index: 10; /* 调整为比 Swiper 轮播内容更高的 z-index */
+  position: absolute; /* 使其可以定位于 Swiper 容器内 */
+  top: 50%; /* 垂直居中 */
+  /* transform: translateY(-50%); */
+}
+
+/* 自定义的下一个按钮样式 */
+.banner-slider-button-next {
+  right: 10px; /* 例如，从右边界 10px 的地方显示 */
+}
+
+/* 自定义的上一个按钮样式 */
+.banner-slider-button-prev {
+  left: 10px; /* 例如，从左边界 10px 的地方显示 */
+}

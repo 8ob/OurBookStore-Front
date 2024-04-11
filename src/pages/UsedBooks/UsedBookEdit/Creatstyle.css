@@ -1,0 +1,206 @@
+.information {
+  position: relative;
+  padding: 118px 45px;
+  border: 1px solid #ebebeb;
+}
+section.section-fourty-eight {
+  position: relative;
+
+  padding-bottom: 120px;
+}
+
+.sidebar .search-box {
+  position: relative;
+}
+
+.sidebar .search-box3 {
+  position: relative;
+  top: 100px;
+}
+
+.sidebar .search-box .form-group {
+  position: relative;
+  margin: 0px;
+}
+
+.inside-section .big-title {
+  position: absolute;
+  font-size: 300px;
+  line-height: 80px;
+  color: #f6f6f6;
+  font-weight: 700;
+  font-family: 'Playfair Display';
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: -99px;
+}
+
+.inside-sectionBox {
+  padding: 10px;
+  margin: 0;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.image-preview {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 200px; /* 可以調整為適合的高度 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+  color: #888;
+  font-size: 16px;
+}
+
+.text-scrollable {
+  max-height: 240px; /* 或其他根據實際需要調整的高度 */
+  overflow-y: auto;
+  padding: 10px; /* 使得垂直方向上超出部分可滾動 */
+  white-space: normal; /* 允许正常换行 */
+  overflow-wrap: break-word; /* 单词太长时允许换行 */
+}
+
+/* 針對所有滾動條 */
+::-webkit-scrollbar {
+  width: 5px; /* 滾動條的寬度 */
+  height: 5px; /* 水平滚动条的高度 */
+}
+
+/* 滾動條軌道 */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* 軌道的顏色 */
+  border-radius: 10px; /* 軌道的圓角 */
+}
+
+/* 滾動條滑塊 */
+::-webkit-scrollbar-thumb {
+  background: #ae9479; /* 滑塊的顏色 */
+  border-radius: 10px; /* 滑塊的圓角 */
+}
+
+/* 當鼠標懸停在滾動條滑塊上時 */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* 滑塊的顏色變為較深 */
+}
+
+.btn-style-one {
+  position: relative;
+  display: inline-block;
+  padding: 12px 20px;
+  overflow: hidden;
+  vertical-align: middle;
+  transition: 0.5s;
+  z-index: 0;
+  background: #c19e7d;
+  line-height: 26px;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 7;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+/* Center.css */
+.select-style,
+.input-style {
+  border: 1px solid #939393;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin: 5px;
+  width: calc(100% - 0px);
+  box-sizing: border-box;
+  position: relative;
+  left: -5px;
+}
+
+.select-style::after {
+  position: relative;
+  content: '\f107'; /* Font Awesome 的 fa-angle-down 图标的 Unicode 字符 */
+  font-family: 'Font Awesome 5 Free'; /* Font Awesome 字体 */
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* 确保点击图标时可以打开 select */
+}
+/* 当选择其他选项时显示的输入框 */
+input.input-style {
+  display: block; /* 确保它是块级元素 */
+  width: 100%; /* 设置宽度为父容器的100% */
+}
+
+.form .form-control2 {
+  background-color: transparent;
+  border: 1px solid #9ea2a8;
+  border-radius: 30px;
+  color: #7a7f85;
+  padding: 15px;
+}
+.form-control2 {
+  height: 48px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #1a1668;
+  transition: all 0.3s ease-in-out;
+  background: #ffffff;
+  border-radius: 100px;
+}
+
+/* .upload-area {
+  
+    overflow: hidden; 
+  
+    width: 480px; 
+    height: 480px; 
+    border-radius: 10px;
+  } */
+
+.block-42c {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #fff6ee;
+  padding: 35px 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.block-42c .icon-two {
+  border-radius: 25px;
+  background-color: #be9a78;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin-right: 15px;
+}
+.block-42c .icon-two i.flaticon-moon {
+  position: absolute;
+  right: 0;
+  bottom: 9px;
+  left: 16px;
+  color: #fff;
+}
+
+.flaticon-moon:before {
+  content: '\f159';
+}
